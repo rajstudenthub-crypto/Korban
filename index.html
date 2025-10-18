@@ -594,8 +594,8 @@
             <!-- The core flexible container: Logo on Left, Navigation Block on Right -->
             <div class="flex justify-between items-center h-16">
                 
-                <!-- 1. LEFT SIDE: Logo/Brand Name -->
-                <div class="flex-shrink-0 flex items-center font-extrabold text-2xl">
+                <!-- 1. LEFT SIDE: Logo/Brand Name (NOW CLICKABLE) -->
+                <a href="#" onclick="showPage('home-page')" class="flex-shrink-0 flex items-center font-extrabold text-2xl hover:opacity-80 transition duration-150" title="হোম পেজে যান">
                     <!-- R in Teal -->
                     <span class="text-teal-accent">R</span>
                     <!-- aj in White (Against the charcoal background) -->
@@ -604,7 +604,7 @@
                     <span class="text-teal-accent">H</span>
                     <!-- ub in White -->
                     <span class="text-white">ub</span>
-                </div>
+                </a>
 
                 <!-- 2. RIGHT SIDE: Others (Navigation Links, Icons, and Mobile Menu Toggle) -->
                 <div class="flex items-center space-x-4">
@@ -707,7 +707,7 @@
             </section>
             
             <!-- --- CATEGORY LISTS (NEW: Responsive view) --- -->
-            
+
             <!-- 2. STATIONERY HUB STRIP (TARGET ID: stationery-products-strip) -->
             <section id="stationery-products-strip" class="mb-12 relative">
                 <!-- UPDATED: Text is Title Case -->
